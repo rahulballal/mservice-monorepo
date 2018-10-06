@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "graphql-tools": "^4.0.0",
     "jest": "^23.6.0",
     "lerna": "^3.4.1",
     "npm-run-all": "^4.1.3",

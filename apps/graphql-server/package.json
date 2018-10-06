@@ -15,5 +15,9 @@
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
     "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.10.0",
+    "graphql-yoga": "^1.16.2"
   }
 }
