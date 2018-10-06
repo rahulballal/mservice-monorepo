@@ -82,7 +82,9 @@ build/Release
 # Dependency directories
 node_modules/
 /packages/*/node_modules
+/packages/*/package-lock.json
 /apps/*/node_modules
+/apps/*/package-lock.json
 jspm_packages/
 
 # TypeScript v1 declaration files
