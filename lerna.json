@@ -1,6 +1,11 @@
 {
-  "packages": ["packages/*", "apps/*"],
+  "packages": [
+    "packages/*",
+    "apps/*"
+  ],
   "npmClient": "npm",
-  "npmClientArgs": ["--no-lockfile"],
-  "version": "0.0.0"
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
+  "version": "independent"
 }
