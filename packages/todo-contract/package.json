@@ -1,10 +1,12 @@
 {
-  "name": "todo-contract",
+  "name": "@rahulballal/todo-contract",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gen:types": "gql2ts -o schema.ts -n GqlTodo schema.graphql",
+    "dist": "mkdir -p dist && cp schema.ts ./dist && cp schema.graphql ./dist ",
+    "build": "run-s gen:types dist"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +20,10 @@
     "typescript": "^3.1.1"
   },
   "files": [
-    "schema.graphql",
     "dist/**/*"
-  ]
+  ],
+  "directories": {},
+  "dependencies": {
+    "prettier": "^1.14.3"
+  }
 }

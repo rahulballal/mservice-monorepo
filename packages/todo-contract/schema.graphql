@@ -1,0 +1,19 @@
+type Query {
+    todos:[Todo]!
+    todo(id: Int!): Todo
+}
+
+type Todo {
+    id: Int!
+    userId: Int!
+    importance: TodoImportanceLevel!
+    message: String!
+    completed: Boolean!
+}
+
+enum TodoImportanceLevel {
+    LOW,
+    HIGH,
+    MEDIUM,
+    CRITICAL
+}

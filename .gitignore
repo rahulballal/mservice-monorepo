@@ -148,5 +148,9 @@ tags
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Ignore all dist
+apps/*/dist/
+packages/*/dist
+
 
 # End of https://www.gitignore.io/api/vim,node,linux,macos,visualstudiocode
